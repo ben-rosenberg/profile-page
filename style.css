@@ -1,0 +1,302 @@
+/* BROWSER RESET */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+
+
+/* SHORTCUT FOR WIDTH OF CONTENT */
+.main_width {
+    width: 70%;
+}
+
+
+/* TOP NAV BAR STYLING */
+
+
+.top_nav_bar {
+    background-color: black;
+    width: 100%;
+    padding: 0.5% 0% 0.5% 0%;
+}
+
+.top_nav_items {
+    display: flex;
+    margin: 0px auto;
+    align-items: center;
+}
+
+.profile_header {
+    font-size: 30pt;
+    color: #fcfcfc;
+    flex: 1;
+}
+
+.nav_links_container {
+    flex: 6;
+    display: flex;
+    justify-content: flex-start;
+    gap: 3%;
+}
+
+.nav_link {
+    color: #adadad;
+    text-decoration: none;
+    font-size: 14pt;
+}
+
+.nav_link:hover {
+    color: #fcfcfc;
+}
+
+.nav_link.my_profile {
+    color: #fcfcfc;
+}
+
+.sign_out_button {
+    margin-left: auto;
+    background-color: #17a2b8;
+    border: none;
+    vertical-align: center;
+    padding: 3px 15px;
+    font-size: 15pt;
+    color: #fcfcfc;
+}
+
+.sign_out_button:hover {
+    border: 1px solid #fcfcfc;
+}
+
+
+/* MAIN CONTENT STYLING */
+
+
+.page_body {
+    display: flex;
+    margin: 0px auto;
+    padding: 40px 0;
+    gap: 40px;
+}
+
+
+/* MAIN CONTENT COLUMN ON LEFT */
+
+
+.main_content_column {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+/* USER CARD BOX */
+
+
+.user_card {
+    max-height: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.top_color_strip {
+    flex: 1;
+    max-height: 27%;
+    background-color: #17a2b8;
+}
+
+.user_avatar {
+    max-height: 115%;
+    background-color: white;
+    padding: 3px;
+    border: 3.5px solid #cccccc;
+    border-radius: 50%;
+    position: relative;
+    top: 35%;
+    left: 43px;
+}
+
+.user_card_info {
+    flex: 3;
+    border-right: 4px solid #cccccc;
+    border-bottom: 4px solid #cccccc;
+    border-left: 4px solid #cccccc;
+    padding: 0px 40px 40px 43px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 14px;
+}
+
+.users_name {
+    font-size: 32pt;
+    font-weight: normal;
+}
+
+.icons {
+    max-height: 32px;
+    width: auto;
+}
+
+.users_location {
+    max-height: 38px;
+    display: flex;
+    gap: 25px;
+}
+
+.location_icon {
+    align-self: flex-end;
+}
+
+.city_name {
+    font-size: 23pt;
+    font-weight: normal;
+    align-self: flex-start;
+    text-align: start;
+}
+
+.info_text {
+    font-size: 19pt;
+}
+
+.edit_profile_link {
+    width: 180px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    font-size: 17pt;
+}
+
+
+/* EDUCATION CARD BOX */
+
+
+.education_card {
+    display: flex;
+    flex-direction: column;
+}
+
+.education_card_header {
+    background-color: #333333;
+    color: #fcfcfc;
+    padding: 15px 43px;
+    vertical-align: middle;
+}
+
+.education_card_body {
+    padding: 10px 43px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border-right: 4px solid #cccccc;
+    border-left: 4px solid #cccccc;
+}
+
+.school_name {
+    font-size: 28pt;
+    font-weight: normal;
+}
+
+.education_dates {
+    color: #939393;
+    font-size: 20pt;
+    font-weight: normal;
+}
+
+.education_description {
+    margin-top: 12px;
+    font-size: 16pt;
+}
+
+
+/* CONNECTIONS COLUMN */
+
+
+.connections_column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.connections_header {
+    color: #fcfcfc;
+    background-color: #333333;
+    padding: 15px 25px;
+}
+
+.num_connections {
+    color: #333333;
+    background-color: #cccccc;
+    border-radius: 50%;
+    font-size: 20pt;
+    padding: 3px 15px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.connections_label {
+    font-size: 20pt;
+    font-weight: normal;
+    align-self: center;
+    display: inline-block;
+}
+
+.connections_body {
+    padding: 30px 25px;
+    border-right: 4px solid #cccccc;
+    border-bottom: 4px solid #cccccc;
+    border-left: 4px solid #cccccc;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.connections_box>.connections_body {
+    gap: 20px;
+}
+
+.connection_item {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.connection_request {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 25px;
+    align-items: center;
+}
+
+.confirm_or_deny {
+    margin-left: auto;
+}
+
+.connections_avatar {
+    height: 65px;
+    width: auto;
+    border-radius: 50%;
+}
+
+.connections_icon {
+    height: 45px;
+    width: auto;
+}
+
+.connection_name {
+    font-size: 18pt;
+    font-weight: normal;
+}
+
+.view_more_link {
+    border-right: 4px solid #cccccc;
+    border-bottom: 4px solid #cccccc;
+    border-left: 4px solid #cccccc;
+    margin-top: auto;
+    font-size: 17pt;
+    display: block;
+    padding: 4px 25px 8px 25px;
+}
